@@ -1,0 +1,66 @@
+.header__containner nav {
+    text-align: right;
+    font-family: "Public Sans", sans-serif;
+}
+
+.header__containner {
+    width: 1111px;
+    height: 32px;
+    top: 64px;
+    left: 165px;
+
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+a {
+    margin-left: 30px;
+    font-size: 15px;
+    color: var(--grayish-dark);
+
+}
+
+.pagina-atual {
+    color: var(--slightly);
+}
+
+.header__containner nav {
+
+    width: 400px;
+    text-align: right;
+    margin-left: 710px;
+    margin-top: -25px;
+}
+
+.arrows {
+
+    width: 60px;
+    height: 32px;
+
+
+    margin-top: 60px;
+}
+
+.arrow-up,
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+}
+
+.arrow-up {
+
+    border-bottom: 20px solid var(--grayish-dark);
+
+
+
+
+}
+
+.arrow-down {
+    border-top: 20px solid var(--grayish-dark);
+    margin-left: 30px;
+    margin-top: -18px;
+}

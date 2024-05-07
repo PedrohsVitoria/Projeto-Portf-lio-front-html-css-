@@ -1,0 +1,141 @@
+@import url(../../css/variaveis.css);
+@import url(../../css/global.css);
+@import url(../../css/reset.css);
+@import url(../../css/components/header.css);
+@import url(../../css/components/footer.css);
+
+.main__portfolio_manage {
+    width: 1015px;
+    height: 500px;
+    margin-left: 140px;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+#img_a-esquerda {
+    width: 540px;
+    height: 500px;
+    position: relative;
+
+}
+
+#img_a-esquerda img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.border-up_texto_a-direita,
+.border-down_texto_a-direita {
+    width: 400px;
+    height: 1px;
+
+    opacity: 15%;
+    background-color: var(--grayish-dark);
+}
+
+.border-down_texto_a-esquerda,
+.border-up_texto_a-esquerda {
+    width: 400px;
+    height: 1px;
+
+    opacity: 15%;
+    background-color: var(--grayish-dark);
+}
+
+.border-down_texto_a-esquerda {
+    margin-top: 60px;
+}
+
+.border-down_bookmark {
+    margin-top: 90px;
+    width: 400px;
+    height: 1px;
+
+    opacity: 15%;
+    background-color: var(--grayish-dark);
+}
+
+.border-down_texto_a-direita {
+    margin-top: 80px;
+}
+
+#texto_a-direita {
+
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin-left: 120px;
+    opacity: 80%;
+
+
+}
+
+#texto_a-direita h2 {
+    margin-top: 110px;
+    margin-bottom: 25px;
+    font-family: Ibarra real nova;
+    font-size: 35px;
+}
+
+#texto_a-direita p {
+    font-family: Public Sans;
+    color: var(--grayish-dark);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#portfolio {
+    width: 1015px;
+    height: 500px;
+    margin-left: 140px;
+    margin-top: 80px;
+    display: flex;
+
+
+}
+
+#img_a-direita {
+    width: 540px;
+    height: 500px;
+    margin-left: 475px;
+    position: relative;
+
+}
+
+#img_a-direita img {
+    width: 100%;
+    height: 100%;
+}
+
+#texto_a-esquerda {
+
+    width: 350px;
+    height: 500px;
+    opacity: 80%;
+
+    position: absolute;
+}
+
+#texto_a-esquerda h2 {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-family: Ibarra real nova;
+    font-size: 35px;
+}
+
+#texto_a-esquerda p {
+    font-family: Public Sans;
+    color: var(--grayish-dark);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: -25px;
+}

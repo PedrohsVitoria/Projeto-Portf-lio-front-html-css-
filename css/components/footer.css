@@ -1,0 +1,102 @@
+.footer__containner {
+    width: 1440px;
+    height: 314px;
+
+    margin-top: 150px;
+}
+
+.footer__contato {
+    width: 1110px;
+    height: 84px;
+    margin-left: 100px;
+
+}
+
+.footer__contato h2 {
+    font-family: ibarra nova real;
+    font-size: 40px;
+}
+
+.footer__contato a {
+    width: 168px;
+    height: 48px;
+    border: 2px solid black;
+    margin-left: 940px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__contato a:hover {
+    background-color: var(--grayish-dark);
+    color: var(--light-grey-input)
+}
+
+.footer__contato button {
+    font-family: Public Sans;
+    font-size: 12px;
+}
+
+
+
+.footer__rodape {
+    background-color: var(--grayish-dark);
+    width: 1440px;
+    height: 80px;
+    position: relative;
+}
+
+.footer__arrows {
+    width: 60px;
+    height: 32px;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.footer__arrow-up,
+.footer__arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.footer__arrow-up {
+    border-bottom: 20px solid var(--very-light-grey);
+}
+
+.footer__arrow-down {
+    border-top: 20px solid var(--very-light-grey);
+    margin-left: 30px;
+    margin-top: -18px;
+}
+
+.footer__links {
+    width: 350px;
+    margin-left: 300px;
+    position: absolute;
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+
+}
+
+.footer__links a {
+    color: var(--very-light-grey);
+    font-size: 12px;
+    font-family: Public Sans;
+
+}
+
+
+.footer__icons {
+    width: 150px;
+    margin-left: 1070px;
+    margin-top: 22px;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+
+}

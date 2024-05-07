@@ -1,0 +1,154 @@
+@import url(../../css/variaveis.css);
+@import url(../../css/global.css);
+@import url(../../css/reset.css);
+@import url(../../css/components/header.css);
+@import url(../../css/components/footer.css);
+@import url(../../pages/portfolio-01-manage/style.css);
+
+
+.main__contact-borderUp,
+.main__contact-borderDown {
+    width: 1110px;
+    height: 1px;
+    margin-bottom: 50px;
+    background-color: var(--grayish-dark);
+    margin-left: 100px;
+    opacity: 15%;
+}
+
+.main__contact-borderUp {
+    margin-top: 100px;
+}
+
+.main__contact-borderDown {
+    margin-top: 55px;
+}
+
+.entre-em-contato {
+    width: 350px;
+    height: 239px;
+    margin-left: 100px;
+    font-family: Ibarra real nova;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0, 36px;
+
+}
+
+.contact-description {
+    width: 635px;
+    height: 180px;
+    margin-left: 580px;
+    margin-top: -240px;
+    opacity: 80%;
+    font-family: Public sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+
+}
+
+.nav-icons {
+    width: 104px;
+    height: 24px;
+    margin-left: 580px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.nav-icons a {
+    margin-left: 17px;
+}
+
+.main__form {
+    width: 1110px;
+    height: 426px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.main__form h2 {
+    width: 350px;
+    height: 42px;
+    margin-top: 1px;
+    font-family: ibarra real nova;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0, 36px;
+
+}
+
+.form_containner {
+    width: 653px;
+    height: 426px;
+    margin-left: 457px;
+    margin-top: -42px;
+    background-color: white;
+}
+
+
+#nome {
+    width: 635px;
+    height: 48px;
+
+}
+
+#email {
+    width: 635px;
+    height: 48px;
+
+
+}
+
+#mensagem {
+    width: 635px;
+    height: 96px;
+    background-color: var(--light-grey-input);
+    border: none;
+
+}
+
+input[type="submit"] {
+    background-color: var(--dark-blue);
+    color: var(--light-grey-input);
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14, 1px;
+    width: 200px;
+    height: 48px;
+    margin-top: 7px;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--slightly);
+}
+
+label,
+input {
+
+
+    display: block;
+    margin-bottom: 17px;
+
+}
+
+label {
+    font-family: public sans;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: var(--grayish-dark);
+    opacity: 80%;
+}
+
+input {
+    background-color: var(--light-grey-input);
+    border: none;
+}

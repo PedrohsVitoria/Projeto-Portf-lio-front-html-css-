@@ -1,0 +1,237 @@
+@import url(../../css/variaveis.css);
+@import url(../../css/global.css);
+@import url(../../css/reset.css);
+@import url(../../css/components/header.css);
+@import url(../../css/components/footer.css);
+
+.main__img {
+    width: 1110px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.main__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.main__description {
+    width: 1110px;
+    height: 1192px;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.main__project {
+    width: 635px;
+    height: 250px;
+    margin-left: 480px;
+    position: absolute;
+}
+
+.main__project h3 {
+    width: 350px;
+    height: 42px;
+    font-family: ibarra real nova;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+}
+
+.border-up_project,
+.border-down_project {
+    width: 350px;
+    height: 1px;
+    opacity: 15%;
+    background-color: var(--grayish-dark);
+}
+
+.border-down_project {
+    margin-top: 30px;
+}
+
+.main__project p {
+    font-family: Public sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 30px;
+    opacity: 80%;
+}
+
+.main__project span {
+    text-decoration: underline;
+}
+
+.main__previews {
+    width: 635px;
+    height: 902px;
+    margin-left: 480px;
+    margin-top: 290px;
+
+    position: absolute;
+}
+
+.main__page {
+    width: 350px;
+    height: 498px;
+    margin-left: 0px;
+
+    position: absolute;
+
+}
+
+.previews-estaticos {
+    width: 350px;
+    height: 42px;
+
+    position: absolute;
+}
+
+.previews-estaticos h3 {
+    font-family: Ibarra real nova;
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 32px;
+
+}
+
+.main__image2 {
+    width: 635px;
+    height: 400px;
+    margin-top: 70px;
+
+    position: absolute;
+}
+
+.main__image3 {
+    width: 635px;
+    height: 400px;
+    margin-top: 502px;
+
+    position: absolute;
+}
+
+
+.main__image3 img,
+.main__image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.main__page h2 {
+    font-family: ibarra real nova;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    letter-spacing: -0, 36px;
+    color: var(--grayish-dark);
+}
+
+.main__page p {
+    font-family: public sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    opacity: 80%;
+    color: var(--grayish-dark);
+}
+
+.main__page span {
+    font-family: public sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--slightly);
+}
+
+button {
+    width: 178px;
+    height: 48px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.main__back-next {
+    width: 1110px;
+    height: 132px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back,
+.next {
+    width: 200px;
+    height: 100px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+
+
+.border_up-back-next,
+.border_down-back-next {
+    width: 1110px;
+    height: 1px;
+    opacity: 15%;
+    background-color: var(--grayish-dark);
+}
+
+.rolagem-de-paginas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next svg {
+    margin-left: 180px;
+    margin-top: 30px
+}
+
+.back svg {
+    margin-top: 30px;
+}
+
+
+
+.next a,
+.back a {
+
+    font-size: 32px;
+    font-family: ibarra real nova;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--grayish-dark)
+}
+
+
+
+.next a {
+    margin-left: -170px;
+}
+
+.next p,
+.back p {
+    width: 118px;
+    height: 30px;
+    font-size: 16px;
+    font-family: public sans;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 20px;
+    opacity: 50%;
+    color: var(--grayish-dark)
+}
